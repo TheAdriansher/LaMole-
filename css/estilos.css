@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Poppins&display=swap');
+@import url('//fonts.googleapis.com/css?family=Bangers');
+
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: 'Montserrat Alternates', sans-serif;
+	}
+	body{
+		background: url(https://www.xtrafondos.com/wallpapers/resized/patron-de-lineas-negro-7938.jpg?s=large);
+		background-size: 100vw 100vh;
+		background-repeat: no-repeat;
+		margin: 0;
+	}
+	.capa{
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		background: rgba(0,0,0,0.6);
+		z-index: -1;
+		top: 0;left: 0;
+	}
+	/*Estilos para el encabezado*/
+	.header{
+		width: 100%;
+		height: 100px;
+		position: fixed;
+		top: 0;left: 0;
+	}
+	.container{
+		width: 90%;
+		max-width: 1200px;
+		margin: auto;
+	}
+	.container .btn-menu, .logo{
+		float: left;
+		line-height:100px;
+	}
+	.container .btn-menu label{
+		color: #fff;
+		font-size: 25px;
+		cursor: pointer;
+	}
+	.img{
+		margin: 10px 5px 5px 0px;
+	}
+	.logo h1{
+		color: #fff;
+		font-weight: 400;
+		font-size: 22px;
+		margin-left: 10px;
+	}
+	.container .menu{
+		float: right;
+		line-height: 100px;
+	}
+	.container .menu a{
+		display: inline-block;
+		padding: 15px;
+		line-height: normal;
+		text-decoration: none;
+		color: #fff;
+		transition: all 0.3s ease;
+		border-bottom: 2px solid transparent;
+		font-size: 15px;
+		margin-right: 5px;
+	}
+	.container .menu a:hover{
+		border-bottom: 2px solid #c7c7c7;
+		padding-bottom: 5px;
+	}
+	/*Fin de Estilos para el encabezado*/
+
+	/*Menù lateral*/
+	#btn-menu{
+		display: none;
+	}
+	.container-menu{
+		position: absolute;
+		background: rgba(8, 8, 145, 0.5);
+		width: 100%;
+		height: 100vh;
+		top: 0;left: 0;
+		transition: all 500ms ease;
+		opacity: 0;
+		visibility: hidden;
+	}
+	#btn-menu:checked ~ .container-menu{
+		opacity: 1;
+		visibility: visible;
+	}
+	.cont-menu{
+		width: 100%;
+		max-width: 250px;
+		background: rgb(28, 28, 28);
+		height: 100vh;
+		position: relative;
+		transition: all 500ms ease;
+		transform: translateX(-100%);
+	}
+	#btn-menu:checked ~ .container-menu .cont-menu{
+		transform: translateX(0%);
+	}
+	.cont-menu nav{
+		transform: translateY(15%);
+	}
+	.cont-menu nav a{
+		display: block;
+		text-decoration: none;
+		padding: 20px;
+		color: #c7c7c7;
+		border-left: 5px solid transparent;
+		transition: all 400ms ease;
+	}
+	.cont-menu nav a:hover{
+		border-left: 5px solid #c7c7c7;
+		background: #1f1f1f;
+	}
+	.cont-menu label{
+		position: absolute;
+		right: 5px;
+		top: 10px;
+		color: #fff;
+		cursor: pointer;
+		font-size: 18px;
+	}
+	/*Fin de Menù lateral*/
+
+	/*Carrusel*/
+
+	
+	h2 {
+		text-align: center;
+		font-size: 2rem;
+		padding-top: 50px;
+	}
+	
+	.slider-frame {
+		width: 1280px;
+		height: auto;
+		margin:50px auto 0;
+		overflow: hidden;
+	}
+	
+	.slider-frame ul {
+		display: flex;
+		padding: 0;
+		width: 400%;
+		
+		animation: slide 20s infinite alternate ease-in-out;
+	}
+	
+	.slider-frame li {
+		width: 100%;
+		list-style: none;
+	}
+	
+	.slider-frame img {
+		width: 100%;
+	}
+	
+	@keyframes slide {
+		0% {margin-left: 0;}
+		20% {margin-left: 0;}
+		
+		25% {margin-left: -100%;}
+		45% {margin-left: -100%;}
+		
+		50% {margin-left: -200%;}
+		70% {margin-left: -200%;}
+		
+		75% {margin-left: -300%;}
+		100% {margin-left: -300%;}
+	}
+
+	/*Iconos de Redes Sociales*/
+
+	
+	/*Timer*/
+.parent {
+	display: grid;
+	color:#fff;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+	}
+		
+	.div1 { grid-area: 1 / 1 / 2 / 2; }
+	.div2 { grid-area: 1 / 2 / 2 / 3; }
+	.div3 { grid-area: 1 / 3 / 2 / 4; }
+	.div4 { grid-area: 1 / 4 / 2 / 5; }
+	.div5 { grid-area: 1 / 5 / 2 / 6; }
+
+
+.imgWrapper4, .imgWrapper3 {
+	padding: 0px; 
+	margin: -80px 50px -500px -50px;
+	float: left; 
+	font-size: 10;
+	}
+
+	.imgWrapper4 .imgResponsiva
+	.imgWrapper4 .imgResponsiva {width: 10%; max-width: 100px;}
+
+	.imgResponsiva img {
+		height: auto;
+		width: 20%;
+	}
