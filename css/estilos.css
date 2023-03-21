@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Poppins&display=swap');
 @import url('//fonts.googleapis.com/css?family=Bangers');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
 
 	*{
 		margin: 0;
@@ -208,3 +209,50 @@
 		height: auto;
 		width: 20%;
 	}
+
+	.FAQS {
+		color: #fff;
+  		text-align: center;
+}
+	
+.FAQS h1{
+	color: #fff;
+	text-align: center;
+  }
+  
+  details{
+	background-color: #303030;
+	color: #fff;
+	font-size: 1.5rem;
+  }
+
+summary {
+  padding: .5em 1.3rem;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;  
+  transition: height 1s ease;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary:after{
+  content: "\002B";
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: .5em;
+}
+
+details[open] summary:after{
+  content: "\00D7";
+}
+
+details[open] div{
+  padding: .5em 1em;
+}
+
+/*GRID IMAGENES*/
