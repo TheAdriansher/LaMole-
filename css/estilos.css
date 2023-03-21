@@ -8,7 +8,7 @@
 		font-family: 'Montserrat Alternates', sans-serif;
 	}
 	body{
-		background: url(https://www.xtrafondos.com/wallpapers/resized/patron-de-lineas-negro-7938.jpg?s=large);
+		background: black;
 		background-size: 100vw 100vh;
 		background-repeat: no-repeat;
 		margin: 0;
@@ -93,7 +93,7 @@
 	.cont-menu{
 		width: 100%;
 		max-width: 250px;
-		background: rgb(28, 28, 28);
+		background: rgb(0, 0, 0);
 		height: 100vh;
 		position: relative;
 		transition: all 500ms ease;
@@ -115,7 +115,7 @@
 	}
 	.cont-menu nav a:hover{
 		border-left: 5px solid #c7c7c7;
-		background: #1f1f1f;
+		background: #000000;
 	}
 	.cont-menu label{
 		position: absolute;
